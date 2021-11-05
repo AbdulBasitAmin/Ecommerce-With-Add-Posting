@@ -1,0 +1,27 @@
+﻿@using PagedList.Mvc;
+@model PagedList.IPagedList<ECommerce_With_AD_Posting.Models.tbl_cateogry>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<div class="row" style="margin:20px;">
+
+    @if (Model != null)
+    {
+        foreach (var item in Model)
+        {
+            <div class="col-lg-4 col-md-4" style="height:250px; margin-top:120px;">
+
+                <img src="@Url.Content(item.cat_image)" style="height:100%; width:100%;" />
+
+                <h3 style="text-align:center;">@item.cat_name</h3>
+
+            </div>
+        }
+    }
+
+</div>

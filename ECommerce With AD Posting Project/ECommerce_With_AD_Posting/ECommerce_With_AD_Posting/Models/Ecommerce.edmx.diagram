@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9db99ce0665b40e6967d2747e6ad1575" Name="Diagram1">
+        <EntityTypeShape EntityType="ECommerce_With_AD_PostingModel.tbl_admin" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ECommerce_With_AD_PostingModel.tbl_cateogry" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ECommerce_With_AD_PostingModel.tbl_invoice" Width="1.5" PointX="5.25" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="ECommerce_With_AD_PostingModel.tbl_order" Width="1.5" PointX="8.25" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="ECommerce_With_AD_PostingModel.tbl_product" Width="1.5" PointX="5.25" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="ECommerce_With_AD_PostingModel.tbl_user" Width="1.5" PointX="5.25" PointY="13" IsExpanded="true" />
+        <AssociationConnector Association="ECommerce_With_AD_PostingModel.FK__tbl_cateo__ad_id__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="ECommerce_With_AD_PostingModel.FK__tbl_invoi__ad_id__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="ECommerce_With_AD_PostingModel.FK__tbl_order__ad_id__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="ECommerce_With_AD_PostingModel.FK__tbl_produ__ad_id__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="ECommerce_With_AD_PostingModel.FK__tbl_user__ad_id___2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="ECommerce_With_AD_PostingModel.FK__tbl_invoi__cat_i__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="ECommerce_With_AD_PostingModel.FK__tbl_order__cat_i__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="ECommerce_With_AD_PostingModel.FK__tbl_produ__cat_i__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="ECommerce_With_AD_PostingModel.FK__tbl_user__cat_id__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="ECommerce_With_AD_PostingModel.FK__tbl_invoi__o_id___3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="ECommerce_With_AD_PostingModel.FK__tbl_invoi__pro_i__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="ECommerce_With_AD_PostingModel.FK__tbl_invoi__u_id___3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="ECommerce_With_AD_PostingModel.FK__tbl_order__pro_i__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="ECommerce_With_AD_PostingModel.FK__tbl_order__u_id___34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="ECommerce_With_AD_PostingModel.FK__tbl_produ__u_id___300424B4" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
